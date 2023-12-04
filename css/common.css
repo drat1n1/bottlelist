@@ -1,0 +1,126 @@
+/* common   */
+
+@font-face {
+    font-family: 'S-CoreDream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-color: #002D71;
+    --sub-color: #e74c3c;
+    --point-color: #11B5CD;
+    --point-color2: #88A1CC;
+    --hover-color: #03235a;
+    --g1: #fafafa;
+    --g1: #ececec;
+    --g2: #D9D9D9;
+    --g3: #7A7A7A;
+    --g4: #5B5B5B;
+    --g5: #3D3D3D;
+    --black: #242424;
+    --white: #fff;
+
+    --h1: font-weight: 700;
+    line-height: normal;
+    --section-margin: 0 0 70px;
+
+
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.line {
+    border: 1px solid #dddddd;
+}
+
+.sdw {
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* font */
+
+body {
+    background-color: #dddddd;
+    width: 834px;
+    height: 1194px;
+    font-size: 16px;
+    color: #242424;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+html {
+    font-family: S-CoreDream;
+    color: #434343;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 22px;
+
+}
+
+
+/* spacing */
+
+
+/* font */
+
+
+h1 {}
+
+h2 {}
+
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+/* footer */
+
+
+.gray-btn {
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
+    background: #E2E2E2;
+    color: #BABABA;
+    text-align: center;
+    justify-content: center;
+}
+
+.blue-btn {
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
+    background: #469BFF;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.select {
+    border-radius: 10px;
+    border: 1px solid #469BFF;
+    background: #E6F1FF;
+}

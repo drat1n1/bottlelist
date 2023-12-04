@@ -1,0 +1,126 @@
+.sec1-icon {
+    background-image: url(/img/icon.svg);
+    margin-bottom: 20px;
+}
+
+section {
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    margin-bottom: -150px;
+}
+
+.sec1-container {
+    margin: auto;
+
+}
+
+.sec1-header {
+    padding-top: 72px;
+}
+
+.sec1-choice {
+    display: flex;
+    gap: 47px;
+}
+
+
+
+.sec1-container p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 19px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.item {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #DCDCDC;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    color: #434343;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    position: relative;
+
+}
+
+
+.item>div span {
+    width: 24px;
+    height: 5px;
+}
+
+.item-plus {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px dashed #A4A4A4;
+    background: #F0F0F0;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    color: #8D8D8D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.item-plus div svg {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+
+}
+
+
+footer {
+    background-color: #fff;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    display: flex;
+}
+
+.footer-btn {
+    display: flex;
+    gap: 20px;
+    margin: 30px 63px;
+}
+
+.footer-btn div {
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+}
+
+.footer-btn p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
