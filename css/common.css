@@ -29,6 +29,11 @@
 
 }
 
+body {
+    color: #434343;
+}
+
+
 .container {
     width: 700px;
     margin: 0 auto;
@@ -49,7 +54,7 @@ body {
     width: 834px;
     height: 1194px;
     font-size: 16px;
-    color: #242424;
+    color: #434343;
     margin: 0;
     padding: 0;
     position: relative;
@@ -119,8 +124,23 @@ p {
 
 }
 
+.click-text {
+    color: #469BFF;
+    font-weight: 600;
+}
+
 .select {
     border-radius: 10px;
     border: 1px solid #469BFF;
     background: #E6F1FF;
+}
+
+
+
+.select-box {
+    border-radius: 10px;
+    border: 1px solid #469BFF;
+    background: #E6F1FF;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+
 }

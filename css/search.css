@@ -18,35 +18,99 @@ section {
 .sec1-header {
     padding-top: 50px;
     font-size: 24px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sec1-header p {
     font-size: 18px;
     line-height: 22px;
     text-align: left;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
     font-size: 24px;
 
 }
 
+.sec1-header div {
+    width: 26px;
+    height: 26px;
+    background-image: url(/img/exit-btn.svg);
+}
 
 .sec1-choice {
     display: flex;
-    gap: 47px;
-    margin-bottom: 34px;
+    justify-content: space-between;
+    margin-bottom: 33px;
 }
 
+.sec1-choice div {
+    font-size: 14px;
+}
+
+.sec1-search {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+}
+
+.search-bar {
+    width: 262px;
+    height: 41px;
+    border-radius: 50px;
+    border: 1px solid #DCDCDC;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.search-bar p {
+    font-size: 14px;
+    color: #A7A7A7;
+}
+
+
+
+.search-btn {
+    width: 54px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    background: #BEBEBE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-sizing: border-box;
+
+}
+
+.search-btn p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.search-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/search-icon.svg);
+    background-repeat: no-repeat;
+}
 
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 18px;
+    grid-row-gap: 40px;
 }
 
 .item {
-    height: 70px;
+    height: 224px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +134,7 @@ section {
 
 
 .tag {
-    margin-top: 37px;
+    margin-top: 42px;
 }
 
 .tag p {

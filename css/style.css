@@ -1,0 +1,240 @@
+/* box */
+
+
+
+.box {
+    width: 160px;
+    height: 130px;
+    background: #ffffff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    position: relative;
+
+    &>div {
+        width: 20px;
+        height: 20px;
+        background-image: url('/img/check-circle.svg');
+        background-size: 20px;
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        background-repeat: no-repeat;
+        display: none;
+        /* &.visible {
+            display: block;
+        } */
+
+    }
+}
+
+
+
+.select-box {
+    border-radius: 10px;
+    border: 1px solid #469BFF;
+    background: #E6F1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    position: relative;
+
+    &>div {
+        background-image: url('/img/check-circle.svg');
+        background-size: 20px;
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.x-box {
+    width: 160px;
+    height: 130px;
+
+    background: #ffffff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    position: relative;
+
+
+    & .x-circle {
+        background-image: url('/img/x-circle.svg');
+        background-size: 20px;
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        background-repeat: no-repeat;
+    }
+
+}
+
+.x-box-check {
+    width: 160px;
+    height: 130px;
+
+    background: #ffffff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    position: relative;
+
+
+    & .x-circle {
+        background-image: url('/img/x-circle.svg');
+        background-size: 20px;
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+
+
+.x-box2 {
+    width: 160px;
+    height: 130px;
+
+    background: #FFEBE6;
+    border: 1px solid #FF8946;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    position: relative;
+
+
+    & .x-circle2 {
+        background-image: url('/img/x-circle2.svg');
+        background-size: 20px;
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+.plus-box {
+    width: 160px;
+    height: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    border: 1px dashed #31A9FF;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    color: #8D8D8D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    position: relative;
+
+
+    & .plus-icon {
+        background-image: url('/img/exit-btn.svg');
+        background-size: 20px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+
+}
+
+/* circle */
+
+
+.check-circle {
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/check-circle.svg);
+}
+
+.x-circle {
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/x-circle.svg);
+}
+
+
+.x-circle2 {
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/x-circle2.svg);
+}
+
+.footer-box {
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
+    background: #EEE;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-box2 {
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
+    background: #469BFF;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon {
+    width: 66px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prod-select {
+    width: 166px;
+    height: 156px;
+    border-radius: 10px;
+    border: 1px solid #469BFF;
+    background: #E6F1FF;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prod-item {
+    width: 166px;
+    height: 156px;
+    border-radius: 10px;
+    border: 1px solid #DCDCDC;
+    background: #F5F5F5;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
