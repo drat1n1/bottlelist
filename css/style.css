@@ -1,4 +1,53 @@
 /* box */
+/* 
+.box {
+    width: 160px;
+    height: 130px;
+    background: #ffffff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    position: relative;
+
+    &>div {
+        width: 20px;
+        height: 20px;
+        background-image: url('/img/check-circle.svg');
+        background-size: 20px;
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        background-repeat: no-repeat;
+        display: none;
+        &.visible {
+            display: block;
+        }
+
+    }
+} */
+
+
+.flex {
+    display: flex;
+    gap: 20px;
+    margin: 50px;
+}
+
+.example-box {
+    width: 160px;
+    height: 130px;
+    background: #ffffff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+
+}
 
 
 
@@ -24,14 +73,13 @@
         top: -10px;
         background-repeat: no-repeat;
         display: none;
-        /* &.visible {
+
+        &.visible {
             display: block;
-        } */
+        }
 
     }
 }
-
-
 
 .select-box {
     border-radius: 10px;
@@ -55,9 +103,6 @@
 
 
 .x-box {
-    width: 160px;
-    height: 130px;
-
     background: #ffffff;
     border: 1px solid #DCDCDC;
     border-radius: 10px;
@@ -68,7 +113,7 @@
     position: relative;
 
 
-    & .x-circle {
+    &>div {
         background-image: url('/img/x-circle.svg');
         background-size: 20px;
         position: absolute;
@@ -93,7 +138,7 @@
     position: relative;
 
 
-    & .x-circle {
+    &>div {
         background-image: url('/img/x-circle.svg');
         background-size: 20px;
         position: absolute;
@@ -108,9 +153,6 @@
 
 
 .x-box2 {
-    width: 160px;
-    height: 130px;
-
     background: #FFEBE6;
     border: 1px solid #FF8946;
     border-radius: 10px;
@@ -121,7 +163,7 @@
     position: relative;
 
 
-    & .x-circle2 {
+    &>div {
         background-image: url('/img/x-circle2.svg');
         background-size: 20px;
         position: absolute;
@@ -134,9 +176,6 @@
 
 
 .plus-box {
-    width: 160px;
-    height: 130px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,7 +190,9 @@
     position: relative;
 
 
-    & .plus-icon {
+    & div {
+        width: 20px;
+        height: 20px;
         background-image: url('/img/exit-btn.svg');
         background-size: 20px;
         position: absolute;
@@ -160,31 +201,7 @@
 
 }
 
-/* circle */
-
-
-.check-circle {
-    width: 20px;
-    height: 20px;
-    background-image: url(/img/check-circle.svg);
-}
-
-.x-circle {
-    width: 20px;
-    height: 20px;
-    background-image: url(/img/x-circle.svg);
-}
-
-
-.x-circle2 {
-    width: 20px;
-    height: 20px;
-    background-image: url(/img/x-circle2.svg);
-}
-
 .footer-box {
-    width: 180px;
-    height: 62px;
     border-radius: 10px;
     background: #EEE;
     box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.15);
@@ -194,8 +211,6 @@
 }
 
 .footer-box2 {
-    width: 180px;
-    height: 62px;
     border-radius: 10px;
     background: #469BFF;
     box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.15);
@@ -216,8 +231,6 @@
 }
 
 .prod-select {
-    width: 166px;
-    height: 156px;
     border-radius: 10px;
     border: 1px solid #469BFF;
     background: #E6F1FF;
@@ -228,8 +241,6 @@
 }
 
 .prod-item {
-    width: 166px;
-    height: 156px;
     border-radius: 10px;
     border: 1px solid #DCDCDC;
     background: #F5F5F5;
