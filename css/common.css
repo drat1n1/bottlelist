@@ -141,13 +141,26 @@ html {
 
 }
 
+.close3::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/close-circle3.svg');
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-repeat: no-repeat;
+
+}
+
 .plus-icon::after {
     content: '';
-    width: 36px;
-    height: 36px;
+    width: 24px;
+    height: 24px;
     background-image: url('/img/plus-icon.svg');
     position: absolute;
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -181,6 +194,13 @@ html {
 
 }
 
+.plus-box-s {
+    border-radius: 5px;
+    border: 1px dashed #31A9FF;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    position: relative;
+}
+
 .plus-box {
     border-radius: 10px;
     border: 1px dashed #31A9FF;
@@ -189,7 +209,7 @@ html {
 }
 
 
-.del-box2 {
+.except-box {
     background: #FFEBE6;
     border: 1px solid #FF8946;
     border-radius: 10px;
@@ -197,15 +217,6 @@ html {
 
 }
 
-.plus-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 28px;
-    border: 1px dashed #31A9FF;
-    position: relative;
-
-}
 
 .footer-box {
     border-radius: 10px;
@@ -232,12 +243,12 @@ html {
 
 footer {
     background-color: #fff;
-    width: 100%;
+    width: 834px;
     height: 150px;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0px;
 }

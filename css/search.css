@@ -66,9 +66,9 @@ section {
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 10px 20px;
     box-sizing: border-box;
     gap: 10px;
+
 }
 
 .search-bar p {
@@ -87,7 +87,8 @@ section {
     align-items: center;
     justify-content: center;
     color: #fff;
-    box-sizing: border-box;
+    z-index: 1;
+    opacity: 1;
 
 }
 
@@ -96,17 +97,45 @@ section {
     font-weight: 500;
 }
 
-.search-icon {
-    width: 16px;
-    height: 16px;
-    background-image: url(/img/search-icon.svg);
-    background-repeat: no-repeat;
+.search-bar {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.search-bar div {
+    width: 18px;
+    height: 18px;
+
+}
+
+.search-input {
+    width: 230px;
+    height: 30px;
+    background-color: #F5F5F5;
+    border: none;
+
+}
+
+input::placeholder {
+    color: #A7A7A7;
+    font-family: S-Core Dream;
+    font-size: 14px;
+    font-style: normal;
+}
+
 
 
 .product {
     margin-top: 42px;
 }
+
+.prod-wrap {
+    overflow: hidden;
+}
+
 
 .prod-wrap p {
     font-size: var(--t4);
@@ -122,14 +151,18 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: -1px;
+
 }
+
+
+.g-box {
+    border: 0px solid;
+}
+
 
 .prod-name {
     margin: 11px 0 0 0;
 }
-
-
 
 
 .grid-container {
