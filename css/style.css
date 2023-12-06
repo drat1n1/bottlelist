@@ -37,6 +37,18 @@
 
 }
 
+
+.plus-icon::after {
+    content: '';
+    width: 36px;
+    height: 36px;
+    background-image: url('/img/plus-icon.svg');
+    position: absolute;
+    background-repeat: no-repeat;
+
+}
+
+
 .sdw {
     box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
 }
@@ -50,6 +62,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    
 }
 
 .g-box {
@@ -74,6 +87,15 @@
 
 }
 
+
+.plus-box {
+    border-radius: 10px;
+    border: 1px dashed #31A9FF;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+
 .del-box2 {
     background: #FFEBE6;
     border: 1px solid #FF8946;
@@ -86,16 +108,11 @@
 }
 
 .plus-box {
+    border-radius: 28px;
+    border: 1px dashed #31A9FF;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 28px;
-    border: 1px dashed #31A9FF;
-    color: #8D8D8D;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
     position: relative;
 
 }

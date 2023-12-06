@@ -22,7 +22,7 @@
     --t3: 16px;
     --t4: 14px;
     --btn: 20px;
-    --bold: 800;
+    --bold: 1000;
 
 }
 
@@ -34,11 +34,6 @@ body {
 .container {
     width: 730px;
     margin: 0 auto;
-}
-
-
-.sdw {
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* font */
@@ -105,125 +100,102 @@ html {
     font-weight: 600;
 }
 
-.select {
-    border-radius: 10px;
-    border: 1px solid #469BFF;
-    background: #E6F1FF;
+
+
+/* box */
+
+
+.checked::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/check-circle.svg');
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-repeat: no-repeat;
+
+}
+
+.close::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/close-circle.svg');
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-repeat: no-repeat;
+
+}
+
+.close2::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/close-circle2.svg');
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-repeat: no-repeat;
+
+}
+
+.plus-icon::after {
+    content: '';
+    width: 36px;
+    height: 36px;
+    background-image: url('/img/plus-icon.svg');
+    position: absolute;
+    background-repeat: no-repeat;
+
 }
 
 
-.select-box1 {
-    border-radius: 10px;
-    border: 1px solid #469BFF;
-    background: #E6F1FF;
+.sdw {
     box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
-
 }
-
 
 .box {
     background: #ffffff;
     border: 1px solid #DCDCDC;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    position: relative;
 }
+
+.g-box {
+    border-radius: 10px;
+    border: 1px solid #DCDCDC;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    position: relative;
+}
+
 
 .select-box {
     border-radius: 10px;
     border: 1px solid #469BFF;
-    background: #E6F1FF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    background: #e1eeff;
     position: relative;
 
-    &>div {
-        background-image: url('/img/check-circle.svg');
-        background-size: 20px;
-        position: absolute;
-        right: -10px;
-        top: -10px;
-        background-repeat: no-repeat;
-    }
 }
 
-
-.x-box {
-    background: #ffffff;
-    border: 1px solid #DCDCDC;
+.plus-box {
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 1px dashed #31A9FF;
     box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
     position: relative;
-
-
-    &>div {
-        background-image: url('/img/x-circle.svg');
-        background-size: 20px;
-        position: absolute;
-        right: -10px;
-        top: -10px;
-        background-repeat: no-repeat;
-    }
-
-}
-
-.x-box-check {
-    width: 160px;
-    height: 130px;
-
-    background: #ffffff;
-    border: 1px solid #DCDCDC;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
-    position: relative;
-
-
-    &>div {
-        background-image: url('/img/x-circle.svg');
-        background-size: 20px;
-        position: absolute;
-        right: -10px;
-        top: -10px;
-        background-repeat: no-repeat;
-    }
-
 }
 
 
-
-
-.x-box2 {
+.del-box2 {
     background: #FFEBE6;
     border: 1px solid #FF8946;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
     position: relative;
 
-
-    &>div {
-        background-image: url('/img/x-circle2.svg');
-        background-size: 20px;
-        position: absolute;
-        right: -10px;
-        top: -10px;
-        background-repeat: no-repeat;
-    }
-
 }
-
 
 .plus-box {
     display: flex;
@@ -231,64 +203,58 @@ html {
     justify-content: center;
     border-radius: 28px;
     border: 1px dashed #31A9FF;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
-    color: #8D8D8D;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
     position: relative;
-
-
-    & div {
-        width: 20px;
-        height: 20px;
-        background-image: url('/img/exit-btn.svg');
-        background-size: 20px;
-        position: absolute;
-        background-repeat: no-repeat;
-    }
 
 }
 
 .footer-box {
     border-radius: 10px;
     background: #EEE;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.15);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
 }
 
 .footer-box2 {
     border-radius: 10px;
     background: #469BFF;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.15);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
 }
 
 .menu-icon {
-
+    width: 66px;
+    height: 30px;
     border-radius: 50px;
     border: 1px solid #DCDCDC;
     background: #FFF;
+    position: relative;
+}
+
+/* footer */
+
+footer {
+    background-color: #fff;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    margin: 30px 63px;
+}
+
+.footer-btn div {
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.prod-select {
-    border-radius: 10px;
-    border: 1px solid #469BFF;
-    background: #E6F1FF;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.04);
-}
-
-.prod-item {
-    border-radius: 10px;
-    border: 1px solid #DCDCDC;
-    background: #F5F5F5;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.04);
+    font-weight: 600;
 }
