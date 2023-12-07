@@ -116,7 +116,7 @@
     background: #e1eeff;
     position: relative;
 
-    &:has(input:checked) {
+    &:has(div:checked) {
         border-bottom: 1px solid #469BFF;
     }
 
@@ -146,7 +146,7 @@
 
 }
 
-.footer-box {
+.footer-box1 {
     border-radius: 10px;
     background: #ffffff;
     position: relative;
