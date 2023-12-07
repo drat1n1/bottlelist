@@ -82,6 +82,37 @@ section {
     margin: 12px 0 2px 0;
 }
 
+
+.prod-wrap {
+    width: 156px;
+    height: 224px;
+    overflow: hidden;
+}
+
+.prod-wrap p:last-child {
+    font-size: var(--t4);
+}
+
+.prod-container>div {
+    width: 166px;
+
+}
+
+.prod-select {
+    height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    margin: -1px;
+
+}
+
+.prod-name {
+    margin: 11px 0 0 0;
+    font-size: var(--t4);
+}
+
 .arrow {
     width: 180px;
     height: 20px;

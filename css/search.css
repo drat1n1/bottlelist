@@ -98,10 +98,10 @@ section {
 }
 
 .search-bar {
-    padding-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 
 }
 
@@ -112,21 +112,20 @@ section {
 }
 
 .search-input {
-    width: 230px;
+    width: 200px;
     height: 30px;
     background-color: #F5F5F5;
     border: none;
+
 
 }
 
 input::placeholder {
     color: #A7A7A7;
-    font-family: S-Core Dream;
-    font-size: 14px;
+    font-family: 'S-CoreDream';
+    font-size: var(--t4);
     font-style: normal;
 }
-
-
 
 .product {
     margin-top: 42px;
@@ -136,8 +135,7 @@ input::placeholder {
     overflow: hidden;
 }
 
-
-.prod-wrap p {
+.prod-wrap p:last-child {
     font-size: var(--t4);
 }
 
@@ -151,26 +149,22 @@ input::placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0;
+    margin: -1px;
 
 }
-
-
-.g-box {
-    border: 0px solid;
-}
-
 
 .prod-name {
     margin: 11px 0 0 0;
+    font-size: var(--t4);
 }
 
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 18px;
     grid-row-gap: 40px;
+    gap: 20px
 }
 
 

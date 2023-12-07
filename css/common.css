@@ -10,9 +10,10 @@
 :root {
     --main-color: #469BFF;
     --g1: #F5F5F5;
-    --g2: #d9d9d9;
-    --g3: #bebebe;
-    --g3: #5E5E5E;
+    --g2: #E0E0E0;
+    --g3: #d9d9d9;
+    --g4: #bebebe;
+    --g5: #5E5E5E;
 
     --black: #434343;
     --white: #fff;
@@ -169,6 +170,10 @@ html {
     box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
 }
 
+.sdw2 {
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
 .box {
     background: #ffffff;
     border: 1px solid #DCDCDC;
@@ -220,14 +225,16 @@ html {
 
 .footer-box {
     border-radius: 10px;
-    background: #EEE;
+    background: #ffffff;
     position: relative;
+    color: var(--g2);
 }
 
 .footer-box2 {
     border-radius: 10px;
     background: #469BFF;
     position: relative;
+    color: var(--white);
 }
 
 .menu-icon {
