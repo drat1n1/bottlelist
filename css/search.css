@@ -1,63 +1,43 @@
-.sec1-icon {
-    background-image: url(/img/icon.svg);
-    margin-bottom: 20px;
-}
-
-section {
-    height: 100%;
-    background-color: #fff;
-    text-align: center;
-    position: relative;
-    margin-bottom: -150px;
-}
-
-
-.sec1-container {
-    margin: auto;
-}
-
-.sec1-header {
+.sec3-header {
     padding-top: 50px;
-    font-size: 24px;
+    font-size: var(--header);
     display: flex;
     justify-content: space-between;
 }
 
-.sec1-header p {
-    font-size: 18px;
+.sec3-header p {
     line-height: 22px;
     text-align: left;
     margin-bottom: 40px;
-    font-size: 24px;
+    font-size: var(--header);
 
 }
 
-
-.sec1-header div {
+.sec3-header div {
     width: 26px;
     height: 26px;
     background-image: url(/img/exit-btn.svg);
 }
 
-.sec1-choice {
+.sec3-choice {
     display: flex;
     justify-content: space-between;
     margin-bottom: 33px;
 
 }
 
-.sec1-choice div {
+.sec3-choice div {
     font-size: var(--t3);
 }
 
-.sec1-search {
+.sec3-search {
     display: flex;
     justify-content: end;
     gap: 16px;
 }
 
 
-.search-bar {
+.sec3-search-bar {
     width: 262px;
     height: 41px;
     border-radius: 50px;
@@ -71,13 +51,13 @@ section {
 
 }
 
-.search-bar p {
+.sec3-search-bar p {
     font-size: 14px;
     color: #A7A7A7;
 }
 
 
-.search-btn {
+.sec3-search-btn {
     width: 54px;
     height: 40px;
     border-radius: 5px;
@@ -92,12 +72,12 @@ section {
 
 }
 
-.search-btn p {
+.sec3-search-btn p {
     font-size: 14px;
     font-weight: 500;
 }
 
-.search-bar {
+.sec3-search-bar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,13 +85,13 @@ section {
 
 }
 
-.search-bar div {
+.sec3-search-bar div {
     width: 18px;
     height: 18px;
 
 }
 
-.search-input {
+.sec3-search-input {
     width: 200px;
     height: 30px;
     background-color: #F5F5F5;
@@ -127,7 +107,7 @@ input::placeholder {
     font-style: normal;
 }
 
-.product {
+.sec3-product {
     margin-top: 42px;
 }
 
@@ -160,34 +140,9 @@ input::placeholder {
 }
 
 
-.grid-container {
+.sec3-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 40px;
     gap: 20px
-}
-
-
-.item>div span {
-    width: 24px;
-    height: 5px;
-}
-
-.footer-btn {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.footer-btn div {
-    width: 180px;
-    height: 62px;
-    border-radius: 10px;
-    right: 0;
-}
-
-.footer-btn p {
-    display: flex;
-    justify-content: center;
-
 }

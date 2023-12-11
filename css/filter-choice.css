@@ -1,26 +1,9 @@
-.sec1-icon {
-    background-image: url(/img/icon.svg);
-    margin-bottom: 20px;
-}
-
-section {
-    height: 100%;
-    background-color: #fff;
-    text-align: center;
-    position: relative;
-    margin-bottom: -150px;
-}
-
-.sec1-container {
-    margin: auto;
-}
-
-.sec1-header {
+.sec4-header {
     padding-top: 50px;
     font-size: 24px;
 }
 
-.sec1-header p {
+.sec4-header p {
     font-size: 18px;
     line-height: 22px;
     text-align: left;
@@ -29,115 +12,34 @@ section {
 
 }
 
-
-.sec1-choice {
+.sec4-choice {
     display: flex;
     gap: 47px;
     margin-bottom: 34px;
 }
 
-.item-2 {
-    height: 66px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    border: 1px solid #DCDCDC;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
-    font-size: 16px;
-    color: #469BFF;
-    font-weight: 900;
-}
 
-
-
-.grid-container {
+.sec4-grid {
     display: grid;
     gap: 18px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-
 }
 
 
-.grid-container2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 18px;
-}
-
-.grid-container3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 18px;
-}
-
-
-.tag-item {
+.sec4-grid>.tag-item {
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     position: relative;
-
 }
 
-
-.tag-item>div span {
-    width: 24px;
-    height: 5px;
-}
-
-
-.tag {
+.sec4-tag {
     margin-top: 37px;
 }
 
-.tag p {
+.sec4-tag p {
     text-align-last: left;
     margin-bottom: 20px;
-}
-
-
-.taste-btn {
-    display: flex;
-    gap: 18px;
-    justify-content: space-around;
-
-}
-
-
-.item-plus {
-    width: 100%;
-    display: flex;
-    height: 70px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    border: 1px dashed #A4A4A4;
-    background: #F0F0F0;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
-
-    color: #8D8D8D;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
-}
-
-.item-plus div svg {
-    width: 36px;
-    height: 36px;
-    flex-shrink: 0;
-
-}
-
-.footer-btn p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }

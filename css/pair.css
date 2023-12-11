@@ -1,20 +1,3 @@
-.sec1-icon {
-    background-image: url(/img/icon.svg);
-    margin-bottom: 20px;
-}
-
-section {
-    height: 100%;
-    background-color: #fff;
-    text-align: center;
-    position: relative;
-    margin-bottom: -150px;
-}
-
-.sec1-container {
-    margin: auto;
-}
-
 .sec1-header {
     padding-top: 50px;
     font-size: 24px;

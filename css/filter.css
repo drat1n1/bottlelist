@@ -1,27 +1,9 @@
-.sec1-icon {
-    background-image: url(/img/icon.svg);
-    margin-bottom: 20px;
-}
-
-section {
-    height: 100%;
-    background-color: #fff;
-    text-align: center;
-    position: relative;
-    margin-bottom: -150px;
-}
-
-.sec1-container {
-    margin: auto;
-}
-
-.sec1-header {
+.sec2-header {
     padding-top: 50px;
-    font-size: 24px;
-
+    font-size: var(--header);
 }
 
-.sec1-header p {
+.sec2-header p {
     font-size: 18px;
     line-height: 22px;
     text-align: left;
@@ -36,7 +18,7 @@ section {
     background-image: url(/img/exit-btn.svg);
 }
 
-.sec1-choice {
+.sec2-choice {
     display: flex;
     gap: 48px;
     margin-bottom: 33px;
@@ -44,7 +26,7 @@ section {
 }
 
 
-.sec1-search {
+.sec2-search {
     height: 66px;
     display: flex;
     justify-content: end;
@@ -57,117 +39,30 @@ section {
     justify-content: space-between;
 }
 
-.search-bar {
-    width: 262px;
-    height: 41px;
-    border-radius: 50px;
-    border: 1px solid #DCDCDC;
-    background: #F5F5F5;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    gap: 10px;
-}
 
-.search-bar p {
-    font-size: 14px;
-    color: #A7A7A7;
-}
-
-
-.search-btn {
-    width: 54px;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid #DCDCDC;
-    background: #BEBEBE;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    box-sizing: border-box;
-
-}
-
-.search-btn p {
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.search-icon {
-    width: 16px;
-    height: 16px;
-    background-image: url(/img/search-icon.svg);
-    background-repeat: no-repeat;
-}
-
-
-.grid-container {
+.sec2-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 20px;
 }
 
-.item {
+
+.sec2-grid>.tag-item {
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.06);
-    color: #434343;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
+    box-sizing: border-box;
     position: relative;
-
 }
 
 
-.item>div span {
-    width: 24px;
-    height: 5px;
-}
-
-
-.tag-wrap {
+.sec2-tag {
     margin-top: 42px;
 }
 
-.tag-wrap>p {
+.sec2-tag>p {
     text-align: left;
     margin-bottom: 20px;
-}
-
-
-.tag-btn {
-    width: 230px;
-    height: 70px;
-    display: flex;
-    gap: 18px;
-    justify-content: space-around;
-    position: relative;
-
-}
-
-
-.footer-btn div {
-    width: 180px;
-    height: 62px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 0;
-}
-
-.footer-btn p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }

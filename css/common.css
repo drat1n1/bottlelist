@@ -42,13 +42,12 @@ body {
 body {
     background-color: #dddddd;
     width: 834px;
-    height: 1194px;
     font-size: 16px;
     color: #434343;
     margin: 0;
     padding: 0;
     position: relative;
-    min-height: 100vh;
+
 }
 
 
@@ -61,6 +60,40 @@ html {
     line-height: 22px;
 
 }
+
+
+section {
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    margin-bottom: -150px;
+}
+
+
+.tag-btn {
+    width: 230px;
+    height: 70px;
+    display: flex;
+    gap: 18px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.sec-container {
+    padding-bottom: 170px;
+}
+
+.tag-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
 
 
 /* spacing */
@@ -286,4 +319,11 @@ footer {
     align-items: center;
     justify-content: center;
     font-weight: 600;
+}
+
+.footer-btn p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
