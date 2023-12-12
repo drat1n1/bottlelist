@@ -1,0 +1,25 @@
+.sec4-header {
+    padding-top: 50px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4-header p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 24px;
+
+}
+
+.sec4-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    & .tag-item {
+        height: 70px;
+    }
+}

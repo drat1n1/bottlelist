@@ -1,68 +1,40 @@
-.sec2-header {
-    padding-top: 50px;
-    font-size: var(--header);
-}
-
-.sec2-header p {
+.sec2 .header>p {
     font-size: 18px;
     line-height: 22px;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
     font-size: 24px;
 
 }
 
-.close-icon {
-    width: 26px;
-    height: 26px;
-    background-image: url(/img/exit-btn.svg);
-}
-
 .sec2-choice {
     display: flex;
-    gap: 48px;
-    margin-bottom: 33px;
-    font-size: var(--header);
+    gap: 47px;
+    margin-bottom: 34px;
 }
 
 
 .sec2-search {
     height: 66px;
     display: flex;
-    justify-content: end;
-    gap: 16px;
-}
-
-
-.header1 {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.sec2-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 20px;
-}
-
-
-.sec2-grid>.tag-item {
-    height: 70px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-    position: relative;
+    align-items: center;
+    margin-bottom: 40px;
+
+    & p {
+        font-size: var(--t3);
+        font-weight: 700;
+        color: var(--main-color);
+    }
 }
 
-
-.sec2-tag {
-    margin-top: 42px;
-}
-
-.sec2-tag>p {
+.sec2-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
     text-align: left;
+}
+
+.sec2 .item>p {
     margin-bottom: 20px;
 }

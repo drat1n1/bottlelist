@@ -1,43 +1,23 @@
-.sec1-icon {
-    background-image: url(/img/icon.svg);
-    margin-bottom: 20px;
-}
-
-section {
-    height: 100%;
-    background-color: #fff;
-    text-align: center;
-    position: relative;
-    margin-bottom: -150px;
-}
-
-.sec1-container {
-    margin: auto;
-}
-
-.sec1-header {
+.recom-page .header {
     padding-top: 50px;
-    font-size: 24px;
     display: flex;
     justify-content: space-between;
+
+    &>p {
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 40px;
+        font-size: var(--header);
+    }
 }
 
 
-.sec1-header p {
-    line-height: 22px;
-    text-align: left;
-    margin-bottom: 40px;
-    font-size: var(--header);
-
+.recom-page .box {
+    height: 220px;
 }
 
-.sec1-header div {
-    width: 26px;
-    height: 26px;
-    background-image: url(/img/exit-btn.svg);
-}
 
-.recom-item {
+.recom-page .container>.box {
     height: 256px;
     display: flex;
     align-items: center;
@@ -47,39 +27,17 @@ section {
     font-weight: 500;
     line-height: 22px;
     margin-bottom: 50px;
-
 }
 
-.item-content {
+
+
+
+
+.recom-page .item {
     width: 684px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.left,
-.right {
-    width: 165px;
-    height: 210px;
-}
-
-
-.left .img,
-.right .img {
-    height: 156px;
-    margin-bottom: 14px;
-}
-
-.item-img {
-    height: 156px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.left p:first-of-type,
-.right p:first-of-type {
-    margin: 12px 0 2px 0;
 }
 
 
@@ -89,14 +47,6 @@ section {
     overflow: hidden;
 }
 
-.prod-wrap p:last-child {
-    font-size: var(--t4);
-}
-
-.prod-container>div {
-    width: 166px;
-
-}
 
 .prod-select {
     height: 156px;
@@ -129,24 +79,4 @@ section {
 .center div:last-of-type {
     width: 205px;
     height: 40px;
-}
-
-
-.footer-btn {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.footer-btn div {
-    width: 180px;
-    height: 62px;
-    border-radius: 10px;
-    right: 0;
-}
-
-.footer-btn p {
-    display: flex;
-    justify-content: center;
-
 }

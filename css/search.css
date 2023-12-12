@@ -13,11 +13,7 @@
 
 }
 
-.sec3-header div {
-    width: 26px;
-    height: 26px;
-    background-image: url(/img/exit-btn.svg);
-}
+
 
 .sec3-choice {
     display: flex;
@@ -96,8 +92,6 @@
     height: 30px;
     background-color: #F5F5F5;
     border: none;
-
-
 }
 
 input::placeholder {

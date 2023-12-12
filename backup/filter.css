@@ -1,0 +1,29 @@
+.sec2 .header>p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 24px;
+
+}
+
+.sec2-choice {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 33px;
+    font-size: var(--header);
+}
+
+
+.sec2-search {
+    height: 66px;
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+}
+
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+}
