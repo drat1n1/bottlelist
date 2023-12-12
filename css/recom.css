@@ -11,11 +11,9 @@
     }
 }
 
-
 .recom-page .box {
     height: 220px;
 }
-
 
 .recom-page .container>.box {
     height: 256px;
@@ -30,9 +28,6 @@
 }
 
 
-
-
-
 .recom-page .item {
     width: 684px;
     display: flex;
@@ -41,26 +36,19 @@
 }
 
 
-.prod-wrap {
+.prod-wrap>div:first-of-type {
     width: 156px;
-    height: 224px;
-    overflow: hidden;
-}
-
-
-.prod-select {
     height: 156px;
+    overflow: hidden;
     display: flex;
-    align-items: center;
     justify-content: center;
-    border-radius: 0;
-    margin: -1px;
-
+    align-items: center;
 }
+
 
 .prod-name {
     margin: 11px 0 0 0;
-    font-size: var(--t4);
+
 }
 
 .arrow {
@@ -72,11 +60,15 @@
 }
 
 .center .box {
+    width: 205px;
+    height: 40px;
     margin-top: 24px;
     line-height: 40px;
 }
 
-.center div:last-of-type {
-    width: 205px;
-    height: 40px;
+
+
+.text-box {
+    margin: 10px auto;
+    font-size: var(--t4);
 }
