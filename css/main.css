@@ -33,6 +33,12 @@
     padding: 54px 0 170px 0;
 }
 
+.part-container {
+    width: 730px;
+    margin: 0 auto;
+    padding: 54px 0 0 0;
+}
+
 
 .tag-wrap {
     margin-top: 42px;
@@ -120,10 +126,7 @@ section .grid>div {
     font-weight: 700;
 }
 
-
-
 /* box */
-
 
 .checked::after {
     content: '';
@@ -209,6 +212,15 @@ section .grid>div {
     position: relative;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+
+.lg-box {
+    background: #ffffff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .g-box {
@@ -390,25 +402,17 @@ section .grid>div {
     &>p {
         line-height: 22px;
         text-align: left;
-        margin-bottom: 40px;
         font-size: var(--header);
     }
 }
 
-.recom-page .box {
-    height: 220px;
-}
 
-.recom-page .recom-container>.box {
-    height: 256px;
+.recom-page .wrap {
+    height: 255px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
-    margin-bottom: 50px;
+    align-items: center;
+    margin-bottom: 45px;
 }
 
 .recom-page .item {
@@ -418,14 +422,22 @@ section .grid>div {
     align-items: center;
 }
 
+
+.prod-wrap {
+    overflow: hidden;
+}
+
+
 .prod-wrap>div:first-of-type {
-    width: 156px;
-    height: 156px;
+    width: 166px;
+    height: 170px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: -1px;
 }
+
 
 .text-box {
     margin: 10px auto;
@@ -446,6 +458,197 @@ section .grid>div {
     margin-top: 24px;
     line-height: 40px;
 }
+
+
+/* recom-list */
+
+
+.recom-list .header {
+    padding-top: 50px;
+    font-size: 24px;
+
+    &>p {
+        font-size: var(--header);
+        line-height: 22px;
+        text-align: left;
+        font-weight: 400;
+        margin-bottom: 44px;
+    }
+
+    &>p:first-of-type {
+        font-size: var(--t1);
+    }
+
+}
+
+.list-prod {
+    margin-bottom: 45px;
+}
+
+.recom-container {
+    display: flex;
+    width: 750px;
+    height: 214px;
+    padding: 16px 16px;
+    align-items: center;
+}
+
+.item-content {
+    width: 500px;
+    height: 180px;
+    text-align: left;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    overflow-x: auto;
+
+    &>p {
+        font-size: var(--t4);
+    }
+}
+
+.property {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    &>p {
+        font-size: var(--t4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        line-height: 10px;
+
+    }
+
+}
+
+
+/* .search */
+
+.search-page .header {
+    font-size: var(--header);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.search-page .choice {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+    font-size: var(--t3);
+}
+
+.search-page .search {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    margin-bottom: 42px;
+}
+
+.search-page .search-bar {
+    width: 262px;
+    height: 41px;
+    border-radius: 50px;
+    border: 1px solid #DCDCDC;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 10px;
+
+
+    &>p {
+        font-size: 14px;
+        color: #A7A7A7;
+    }
+
+    &>div {
+        padding-left: 10px;
+    }
+}
+
+.search-page .search-btn {
+    width: 54px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    background: #BEBEBE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    z-index: 1;
+    opacity: 1;
+
+    &>p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+
+.search-input {
+    width: 200px;
+    height: 30px;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+input::placeholder {
+    color: #A7A7A7;
+    font-family: 'S-CoreDream';
+    font-size: var(--t4);
+    font-style: normal;
+}
+
+
+
+.prod-wrap p:last-child {
+    font-size: var(--t4);
+}
+
+.prod-container>.prod-wrap {
+    width: 166px;
+    height: 224px;
+    flex-direction: column;
+}
+
+.prod-select {
+    height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    margin: -1px;
+
+}
+
+.prod-name {
+    margin: 11px 0 0 0;
+    font-size: var(--t4);
+}
+
+
+.search-page .grid {
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

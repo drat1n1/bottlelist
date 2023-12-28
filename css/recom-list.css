@@ -1,8 +1,3 @@
-.sec1-icon {
-    background-image: url(/img/icon.svg);
-    margin-bottom: 20px;
-}
-
 section {
     height: 100%;
     background-color: #fff;
@@ -106,7 +101,6 @@ section {
 }
 
 
-
 .property {
     display: flex;
     flex-wrap: wrap;
@@ -121,24 +115,5 @@ section {
     align-items: center;
     box-sizing: border-box;
     line-height: 10px;
-
-}
-
-
-
-.footer-btn div {
-    width: 180px;
-    height: 62px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 0;
-}
-
-.footer-btn p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
 }
